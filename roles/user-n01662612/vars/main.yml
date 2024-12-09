@@ -1,0 +1,8 @@
+---
+# vars file for roles/user-n01662612
+group_name: cloudadmins
+users:
+  - user100
+  - user200
+  - user300
+ssh_key_dir: /home/{{ item }}/.ssh

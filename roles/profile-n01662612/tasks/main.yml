@@ -1,0 +1,11 @@
+---
+# tasks file for roles/profile-n01662612
+- name: Ensure /etc/profile is updated
+  lineinfile:
+    path: /etc/profile
+    line: "{{ item }}"
+    state: present
+  with_items:
+    - "#Test block added by Ansible……{{ username }}"
+    - "export TMOUT={{ timeout }}"
+  become: true

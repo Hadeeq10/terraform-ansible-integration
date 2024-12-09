@@ -1,0 +1,6 @@
+---
+# handlers file for roles/webserver-n01662612
+- name: restart apache
+  systemd:
+    name: "{{ apache_service }}"
+    state: restarted

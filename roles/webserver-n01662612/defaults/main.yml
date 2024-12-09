@@ -1,0 +1,6 @@
+---
+# defaults file for roles/webserver-n01662612
+apache_package: httpd
+apache_service: httpd
+web_root: /var/www/html
+permissions: "0444"

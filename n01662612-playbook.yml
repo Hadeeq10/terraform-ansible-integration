@@ -1,0 +1,9 @@
+---
+- name: All Roles
+  hosts: linux
+  become: yes
+  roles:
+    - role: profile-n01662612
+    - role: user-n01662612
+    - role: datadisk-n01662612
+    - role: webserver-n01662612

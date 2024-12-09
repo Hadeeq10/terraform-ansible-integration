@@ -1,0 +1,9 @@
+---
+# vars file for roles/datadisk-n01662612
+target_disk: "sdc"
+part1_start: "1MiB"
+part1_end: "5GiB"
+part2_start: "6GiB"
+part2_end: "100%"
+part1_mount_point: "/part1"
+part2_mount_point: "/part2"

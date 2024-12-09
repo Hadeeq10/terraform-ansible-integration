@@ -1,0 +1,6 @@
+---
+# vars file for roles/webserver-n01662612
+web_nodes:
+  - lnx-n01662612v1.canadacentral.cloudapp.azure.com
+  - lnx-n01662612v2.canadacentral.cloudapp.azure.com
+  - lnx-n01662612v3.canadacentral.cloudapp.azure.com
