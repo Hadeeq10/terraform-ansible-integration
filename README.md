@@ -47,7 +47,7 @@ Integration:
 # Setup
 Clone this repository:
 - git clone https://github.com/Hadeeq10/terraform-ansible-integration.git
-- cd automation-project/project
+- cd terraform-ansible-integration/project
 
 Initialize Terraform:
 - terraform init
